@@ -1,0 +1,14 @@
+{
+  "title":"新人快速上手：訂單系統",
+  "subtitle":"程式架構 × 業務邏輯 × 開發指南｜虛構案例",
+  "language":"zh-TW", "example":true, "revision":"fictional-demo",
+  "scenes":[
+    {"chapter":"章節 01","title":"系統到底在做什麼？","narration":"這是虛構的訂單系統示範。當使用者下單，系統會受理請求、確認條件，再建立訂單並回傳結果。","steps":["使用者下單","確認條件","建立訂單","回傳結果"],"focus":0,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 02","title":"先看懂四層架構","narration":"新人可以先看四個部分：前端、API、核心業務服務，以及資料庫。從 API 入口追到資料寫入，比逐個讀所有檔案更有效率。","steps":["前端","API","業務服務","資料庫"],"focus":2,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 03","title":"一筆訂單如何流動？","narration":"這個虛構流程先檢查輸入，再檢查庫存，通過後建立訂單。真正分析專案時，必須根據原始碼核對每一步。","steps":["檢查輸入","確認庫存","建立訂單","回傳編號"],"focus":1,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 04","title":"業務規則在哪裡？","narration":"如果庫存不足，系統應該如何處理？需要查看業務服務內的分支條件與實際錯誤回應，不能只看函式名稱猜答案。","steps":["檢查庫存","足夠？","允許建立","拒絕請求"],"focus":1,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 05","title":"資料會寫去哪裡？","narration":"理解資料庫操作時，請找出讀取與寫入的資料表、交易邊界，以及失敗時是否回滾。這些都需要程式碼證據。","steps":["查詢商品","建立訂單","更新狀態","提交交易"],"focus":2,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 06","title":"新人第一個修改怎麼做？","narration":"接到需求時，先找入口，再追到業務規則，接著查看現有測試。先新增測試驗證行為，再修改程式並檢查相容性。","steps":["找到入口","定位規則","新增測試","驗證改動"],"focus":2,"evidence_ids":[],"status":"DEMO"},
+    {"chapter":"章節 07","title":"用一張圖記住重點","narration":"新同事不只要知道系統做什麼，也要知道哪裡改、如何測試，以及哪些地方還不確定。這樣才真正具備接手開發的能力。","steps":["理解架構","掌握流程","找到程式","安全修改"],"focus":3,"evidence_ids":[],"status":"DEMO"}
+  ]
+}

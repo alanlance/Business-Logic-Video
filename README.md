@@ -47,3 +47,7 @@ python3 scripts/render_video.py examples/demo_storyboard.json --out /tmp/bl-vide
 - meirm/reverse-engineering-skill — reverse-engineering-business-logic, tailor-bdd-skills-for-project
 - Data-System-School/agent-skills — investigate-codebase
 - NinjaSln-labs/agent-skills — deep-codebase-analysis
+
+## 新人工程師教學影片
+
+若要介紹整個專案的架構、業務規則與開發測試流程，請參閱 [Codebase Onboarding Video 安裝與使用說明](codebase-onboarding-video/README.md)。

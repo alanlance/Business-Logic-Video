@@ -1,0 +1,37 @@
+{
+  "title": "新人快速上手：訂單系統",
+  "subtitle": "程式架構 × 業務邏輯 × 開發指南｜虛構案例",
+  "language": "zh-TW",
+  "example": true,
+  "revision": "fictional-demo",
+  "scenes": [
+    {
+      "chapter": "章節 01",
+      "title": "系統到底在做什麼？",
+      "narration": "示範畫面：先看架構，再理解流程。",
+      "steps": [
+        "使用者下單",
+        "確認條件",
+        "建立訂單",
+        "回傳結果"
+      ],
+      "focus": 0,
+      "evidence_ids": [],
+      "status": "DEMO"
+    },
+    {
+      "chapter": "章節 02",
+      "title": "先看懂四層架構",
+      "narration": "新人可從入口追蹤到資料庫。",
+      "steps": [
+        "前端",
+        "API",
+        "業務服務",
+        "資料庫"
+      ],
+      "focus": 2,
+      "evidence_ids": [],
+      "status": "DEMO"
+    }
+  ]
+}
